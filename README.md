@@ -39,7 +39,7 @@ $ zqjs add
 ┌───────────────┬─────────────────────────┬────────┐
 │ Template Name │ Owner/Name              │ Branch │
 ├───────────────┼─────────────────────────┼────────┤
-│ react         │ BooheeFE/react-template │ master │
+│ vue           │ zhiqicloud/zqjs         │ master │
 └───────────────┴─────────────────────────┴────────┘
 ✔ New template has been added successfully!
 ```
@@ -53,9 +53,7 @@ $ zqjs list
 ┌───────────────┬─────────────────────────┬────────┐
 │ Template Name │ Owner/Name              │ Branch │
 ├───────────────┼─────────────────────────┼────────┤
-│ react         │ BooheeFE/react-template │ master │
-├───────────────┼─────────────────────────┼────────┤
-│ vue           │ BooheeFE/vue-template   │ master │
+│ vue           │ zhiqicloud/zqjs         │ master │
 └───────────────┴─────────────────────────┴────────┘
 ```
 
@@ -64,8 +62,8 @@ After adding new templates, you could use this command to generate your own proj
 ```
 $ zqjs init
 
-? Template name: react
-? Project name: boohee
+? Template name: vue
+? Project name: demo
 ? Where to init the project? ./
 ⠹ Downloading template...
 
@@ -81,7 +79,7 @@ $ zqjs delete
 ┌───────────────┬─────────────────────────┬────────┐
 │ Template Name │ Owner/Name              │ Branch │
 ├───────────────┼─────────────────────────┼────────┤
-│ react         │ BooheeFE/react-template │ master │
+│ vue           │ zhiqicloud/zqjs         │ master │
 └───────────────┴─────────────────────────┴────────┘
 ✔ Template has been deleted successfully
 ```
