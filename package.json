@@ -1,19 +1,32 @@
 {
-  "name": "zqjs-cli",
+  "name": "zqjs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A simple CLI for creating your projects",
+  "bin": {
+    "zqjs": "bin/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhiqicloud/zqjs-cli.git"
   },
-  "author": "wenyejie <wenyejie@foxmail.com> (https://github.com/wenyejie)",
+  "keywords": [
+    "cli",
+    "boohee"
+  ],
+  "author": "wenyejie <wenyejie@foxmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zhiqicloud/zqjs-cli/issues"
   },
-  "homepage": "https://github.com/zhiqicloud/zqjs-cli#readme"
+  "homepage": "https://github.com/zhiqicloud/zqjs-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cli-table": "^0.3.1",
+    "commander": "^2.16.0",
+    "download-git-repo": "^1.0.2",
+    "handlebars": "^4.0.11",
+    "inquirer": "^6.0.0",
+    "metalsmith": "^2.3.0",
+    "ora": "^1.2.0"
+  }
 }
