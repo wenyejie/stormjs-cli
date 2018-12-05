@@ -6,7 +6,7 @@ A simple CLI for creating your projects
 ### Install
 
 ```shell
-yarn add zqjs -g
+npm add zqjs -g
 ```
 ### Usage
 
