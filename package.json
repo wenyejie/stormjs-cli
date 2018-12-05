@@ -1,0 +1,19 @@
+{
+  "name": "zqjs-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhiqicloud/zqjs-cli.git"
+  },
+  "author": "wenyejie <wenyejie@foxmail.com> (https://github.com/wenyejie)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhiqicloud/zqjs-cli/issues"
+  },
+  "homepage": "https://github.com/zhiqicloud/zqjs-cli#readme"
+}
